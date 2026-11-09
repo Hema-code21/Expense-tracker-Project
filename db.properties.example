@@ -1,0 +1,5 @@
+# Copy this file to db.properties and fill in your actual MySQL credentials.
+# db.properties is excluded from Git (listed in .gitignore) — keep it private!
+DB_URL=jdbc:mysql://localhost:3306/expense_tracker?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+DB_USERNAME=root
+DB_PASSWORD=your_mysql_password_here
